@@ -1,0 +1,26 @@
+.font-size{
+    font-size: 16px;
+}
+.table-font{
+    font-size: 16px;
+}
+@media screen and (max-width: 576px) {
+    .font-size, .table-font{
+        font-size: 13px;
+    }
+    .table-body-row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .table-font{
+        font-size: 10px;
+    }
+}
+
+
+
+.none{
+    display: none;
+}
